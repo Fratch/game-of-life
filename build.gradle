@@ -26,11 +26,6 @@ javafx {
     modules = ['javafx.controls', 'javafx.fxml']
 }
 
-
-plugins {
-    id 'application'
-}
-
 application {
     mainClass = 'it.unicam.cs.pa.jlife097988.Main'
 }
