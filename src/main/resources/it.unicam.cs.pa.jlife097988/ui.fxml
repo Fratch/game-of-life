@@ -16,6 +16,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <VBox fx:id="mainBox" prefHeight="761.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unicam.cs.pa.jlife097988.Controller">
    <children>
@@ -44,19 +45,40 @@
                  <items>
                    <AnchorPane minHeight="0" minWidth="0" prefHeight="176.0" prefWidth="526.0">
                         <children>
-                           <Label fx:id="gen" layoutX="22.0" layoutY="14.0" prefHeight="17.0" prefWidth="133.0" text="Generazione: 0" />
+                           <Label fx:id="gen" layoutX="22.0" layoutY="14.0" prefHeight="17.0" prefWidth="104.0" text="Generazione: 0">
+                              <font>
+                                 <Font name="Arial" size="13.0" />
+                              </font></Label>
                            <AnchorPane layoutX="140.0" layoutY="7.0">
                               <children>
-                                 <Label layoutY="5.0" text="Salta alla generazione" />
-                                 <TextField fx:id="genInput" layoutX="125.0" prefHeight="27.0" prefWidth="50.0" />
-                                 <Button layoutY="22.0" mnemonicParsing="false" onAction="#jumpButton" text="Salta" />
+                                 <Label layoutX="-4.0" layoutY="6.0" text="Salta alla generazione">
+                                    <font>
+                                       <Font name="Arial" size="13.0" />
+                                    </font></Label>
+                                 <TextField fx:id="genInput" layoutX="125.0" prefHeight="27.0" prefWidth="50.0">
+                                    <font>
+                                       <Font name="Arial" size="13.0" />
+                                    </font></TextField>
+                                 <Button layoutX="-4.0" layoutY="27.0" mnemonicParsing="false" onAction="#jumpButton" text="Salta">
+                                    <font>
+                                       <Font name="Arial" size="13.0" />
+                                    </font></Button>
                               </children>
                            </AnchorPane>
                            <AnchorPane layoutX="327.0" layoutY="7.0">
                               <children>
-                                 <Label layoutY="5.0" text="# celle randomiche" />
-                                 <TextField fx:id="numInput" layoutX="125.0" prefHeight="27.0" prefWidth="50.0" />
-                                 <Button layoutY="22.0" mnemonicParsing="false" onAction="#generateButton" text="Genera" />
+                                 <Label layoutY="5.0" text="# celle randomiche">
+                                    <font>
+                                       <Font name="Arial" size="13.0" />
+                                    </font></Label>
+                                 <TextField fx:id="numInput" layoutX="125.0" prefHeight="27.0" prefWidth="50.0">
+                                    <font>
+                                       <Font name="Arial" size="13.0" />
+                                    </font></TextField>
+                                 <Button layoutY="27.0" mnemonicParsing="false" onAction="#generateButton" text="Genera">
+                                    <font>
+                                       <Font name="Arial" size="13.0" />
+                                    </font></Button>
                               </children>
                            </AnchorPane>
                            <GridPane fx:id="grid" alignment="CENTER" gridLinesVisible="true" layoutX="32.0" layoutY="108.0" maxHeight="500.0" maxWidth="500.0" minHeight="500.0" minWidth="500.0" prefHeight="500.0" prefWidth="500.0">
