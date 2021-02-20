@@ -126,7 +126,7 @@ public class Controller implements Initializable {
     public void about() {
         try {
             if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
-                Desktop.getDesktop().browse(new URI("https://docs.google.com/document/d/1UBHxuilN5hpV45u5sshE7SQ95rWYtZRjX_uQ7c3FTbg/"));
+                Desktop.getDesktop().browse(new URI("https://it.wikipedia.org/wiki/Gioco_della_vita"));
             }
         } catch (URISyntaxException | IOException e) {
             e.printStackTrace();
