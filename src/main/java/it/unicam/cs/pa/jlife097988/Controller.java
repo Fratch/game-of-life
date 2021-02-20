@@ -4,13 +4,10 @@ import it.unicam.cs.pa.jlife097988.Model.Board;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
-import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
-import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
 import javafx.stage.Window;
@@ -25,15 +22,12 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.ResourceBundle;
-import java.util.logging.Logger;
 
 
 /**
  * Classe che interfaccia i bottoni della UI ai metodi associati
  **/
 public class Controller implements Initializable {
-
-    private static final Logger LOGGER = Logger.getLogger(Controller.class.getName());
 
     private final FileManager importExport = new FileManager();
     private final Operations operations = new Operations();
