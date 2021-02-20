@@ -18,7 +18,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox fx:id="mainBox" prefHeight="761.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unicam.cs.pa.jlife097988.Controller">
+<VBox fx:id="mainBox" prefHeight="674.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unicam.cs.pa.jlife097988.Controller">
    <children>
       <MenuBar>
         <menus>
@@ -38,7 +38,7 @@
           </Menu>
         </menus>
       </MenuBar>
-      <SplitPane dividerPositions="0.8751696065128901" orientation="VERTICAL">
+      <SplitPane dividerPositions="0.9120234604105572" orientation="VERTICAL">
          <items>
             <AnchorPane minHeight="540.0" minWidth="483.0" prefHeight="596.0" prefWidth="563.0">
                <SplitPane layoutX="-140.0" layoutY="-102.0" orientation="VERTICAL" prefHeight="312.0" prefWidth="443.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -81,7 +81,7 @@
                                     </font></Button>
                               </children>
                            </AnchorPane>
-                           <GridPane fx:id="grid" alignment="CENTER" gridLinesVisible="true" layoutX="32.0" layoutY="108.0" maxHeight="500.0" maxWidth="500.0" minHeight="500.0" minWidth="500.0" prefHeight="500.0" prefWidth="500.0">
+                           <GridPane fx:id="grid" alignment="CENTER" gridLinesVisible="true" layoutX="32.0" layoutY="68.0" maxHeight="500.0" maxWidth="500.0" minHeight="500.0" minWidth="500.0" prefHeight="500.0" prefWidth="500.0">
                              <columnConstraints>
                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -143,9 +143,9 @@
                </SplitPane>
             
                   </AnchorPane>
-          <AnchorPane maxHeight="164.0" minHeight="41.0" minWidth="0.0" prefHeight="153.0" prefWidth="566.0">
+          <AnchorPane maxHeight="164.0" minHeight="40.0" minWidth="0.0" prefHeight="85.0" prefWidth="566.0">
                <children>
-                  <HBox alignment="CENTER" layoutX="33.0" layoutY="25.0" prefHeight="39.0" prefWidth="500.0" spacing="94.0">
+                  <HBox alignment="CENTER" layoutX="33.0" layoutY="6.0" prefHeight="39.0" prefWidth="500.0" spacing="94.0">
                      <children>
                          <Button alignment="BOTTOM_LEFT" onAction="#startButton" prefHeight="39.0" prefWidth="30.0">
                            <graphic>
