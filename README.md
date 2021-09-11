@@ -9,12 +9,12 @@ Il Gioco della vita (Game of Life in inglese, noto anche solo come Life) è un m
 L’obiettivo del progetto è quello di sviluppare il prototipo di un’applicazione Java che consenta di visualizzare l’evoluzione di una data configurazione.
 
 L’applicazione, che dovrà seguire il pattern MVC, dovrà fornire le seguenti componenti:
-Un modello che mette a disposizioni interfacce e classi che descrivono i diversi concetti di Life. Nel modello dovranno essere rappresentati i seguenti concetti (rappresentati mediante interfacce):
-Cellula, rappresenta la singola cellula nel campo;
-Campo, aggrega le cellule secondo uno schema generico (la posizione delle cellule potrebbe essere parametrizzata in modo da considerare diverse tipologie di campi e di coordinate);
-Regola,  è un’interfaccia funzionale con un singolo metodo che, ricevuto in input lo stato della cella corrente e lo stato delle sue vicine, restituisce il nuovo stato della cella. 
-Un controller che permette di gestire l’evoluzione del sistema nonché la possibiltà di caricare da file la configurazione della griglia/campo.
-Una vista che permette di visualizzare l’evoluzione del sistema.
+* Un modello che mette a disposizioni interfacce e classi che descrivono i diversi concetti di Life. Nel modello dovranno essere rappresentati i seguenti concetti (rappresentati mediante interfacce):
+* Cellula, rappresenta la singola cellula nel campo;
+* Campo, aggrega le cellule secondo uno schema generico (la posizione delle cellule potrebbe essere parametrizzata in modo da considerare diverse tipologie di campi e di coordinate);
+* Regola,  è un’interfaccia funzionale con un singolo metodo che, ricevuto in input lo stato della cella corrente e lo stato delle sue vicine, restituisce il nuovo stato della cella. 
+* Un controller che permette di gestire l’evoluzione del sistema nonché la possibiltà di caricare da file la configurazione della griglia/campo.
+* Una vista che permette di visualizzare l’evoluzione del sistema.
 
 In particolare le interfacce e le classi definite nel modello dovranno garantire (per quanto possibile) estensibilità per gestire eventuali varianti del gioco. 
 
