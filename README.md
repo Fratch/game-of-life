@@ -1,4 +1,4 @@
-# it.unicam.cs.pa.jlife097988
+# Game of Life
 Implementazione del Game of Life di John Conway in Java per il progetto di Programmazione Avanzata
 
 <!-- ABOUT THE PROJECT -->
